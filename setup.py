@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='human_readable_time',
-    version='0.1.3',
+    version='0.1.4',
     description='A utility package for human-readable time conversion.',
     long_description='''
                     # زمان خوانا
