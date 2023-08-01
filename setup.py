@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='human_readable_time',
-    version='0.1.1',
+    version='0.1.2',
     description='A utility package for human-readable time conversion.',
     long_description='''
                     # زمان خوانا
@@ -12,13 +12,13 @@ setup(
                       ## چگونه استفاده کنیم
 
                       1. مخزن را در دستگاه محلی خود کلون کنید.
-                      2. تابع `make_readable` را از ماژول `time_utils` وارد کنید.
+                      2. تابع `make_readable` را از ماژول `human_readable_time` وارد کنید.
                       3. تابع `make_readable` را فراخوانی کنید و تعداد ثانیه‌ها را به عنوان آرگومان ارسال کنید.
 
                       مثال:
 
                       ```python
-                      from time_utils import make_readable1 #OR make_readable2
+                      from human_readable_time import make_readable1 #OR make_readable2
 
                       seconds = 3661
                       result = make_readable1(seconds)
@@ -36,13 +36,13 @@ setup(
                       ## How to Use
 
                       1. Clone the repository to your local machine.
-                      2. Import the `make_readable` function from the `time_utils` module.
+                      2. Import the `make_readable` function from the `human_readable_time` module.
                       3. Call the `make_readable` function and pass the number of seconds as an argument.
 
                       Example:
 
                       ```python
-                      from time_utils import make_readable #OR make_readable2
+                      from human_readable_time import make_readable #OR make_readable2
 
                       seconds = 3661
                       result = make_readable1(seconds)
